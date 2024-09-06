@@ -1,0 +1,11 @@
+"use strict" // treat all js code as nwer version
+//alert("hello");-- hello in popup box in browser
+// aler(2+3)-- 5 in popup box in browser
+let str = "hello";
+let num = 23;
+let bool = true;
+
+console.log(typeof str);
+
+
+

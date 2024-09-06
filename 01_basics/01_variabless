@@ -1,1 +1,18 @@
+const accountId = 12345;
+let accountEmail = "someone@gmail.com";
+var accountoassword ="1234897";
+ accountcity = "jaipur";
+ let accountState;// undefined
 
+//accountId = 2; const variable cant assigned or declarered  not allowed
+console.log(accountId);
+
+accountEmail = "hc@hc.com";
+console.log(accountEmail)
+accountoassword = "123657"
+console.log(accountoassword)
+
+accountcity = "bengaluru";
+
+// can't use  var because  of issue in block scope & functional scope.
+console.table([accountId,accountEmail,accountoassword,accountcity,accountState]);
